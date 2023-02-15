@@ -5,7 +5,7 @@ namespace GetCountryFromName.Models;
 public class Country
 {
     [JsonPropertyName("country_id")]
-    public string CountryId { get; set; }
+    public string? CountryId { get; set; }
 
     [JsonPropertyName("probability")]
     public double Probability { get; set; }
@@ -14,8 +14,8 @@ public class Country
 public class CountryResponse
 {
     [JsonPropertyName("country")]
-    public List<Country> Country { get; set; }
+    public List<Country>? Country { get; set; }
 
     [JsonPropertyName("name")]
-    public string Name { get; set; }
+    public string? Name { get; set; }
 }

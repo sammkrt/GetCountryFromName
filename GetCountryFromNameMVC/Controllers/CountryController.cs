@@ -17,12 +17,8 @@ public class CountryController : Controller
     public async Task<ActionResult<CountryResponse>> GetCountry(string name)
     {
         var result = await _countryService.GetCountry(name);
-        return View();
-
-        // return new CountryResponse()
-        // {
-        //     CountryId = result.CountryId
-        // };
+        return View(result);
     }
+
 
 }

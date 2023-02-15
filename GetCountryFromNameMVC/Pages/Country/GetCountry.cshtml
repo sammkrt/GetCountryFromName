@@ -1,8 +1,42 @@
-@model List<GetCountryFromName.Models.Country>
-
-@{
-    ViewBag.Title = "title";
-    Layout = "_Layout";
-}
-
-<h2>title</h2>
+@* @model List<GetCountryFromName.Models.Country> *@
+@* @page *@
+@* *@
+@* @{ *@
+@*     ViewBag.Title = "title"; *@
+@*     Layout = "_Layout"; *@
+@* } *@
+@* *@
+@* *@
+@* <!DOCTYPE html> *@
+@* <html> *@
+@* <head> *@
+@*     <title>Country for Name</title> *@
+@* </head> *@
+@* <body> *@
+@* <h1>Country for Name</h1> *@
+@* <form method="get" action="@Url.Action("GetCountry", "Country")"> *@
+@*     <label for="name">Name:</label> *@
+@*     <input type="text" name="name" id="name"/> *@
+@*     <button type="submit">Submit</button> *@
+@* </form> *@
+@* @if (Model != null) *@
+@* { *@
+@*     <h2>Results for @Model</h2> *@
+@*     @if (Model != null && Model.Count > 0) *@
+@*     { *@
+@*         <ul> *@
+@*             @foreach (var country in Model) *@
+@*             { *@
+@*                 <li>@country.CountryId - Probability: @country.Probability</li> *@
+@*             } *@
+@*         </ul> *@
+@*     } *@
+@*     else *@
+@*     { *@
+@*         <p>No countries found for that name.</p> *@
+@*     } *@
+@* } *@
+@* </body> *@
+@* </html> *@
+@* *@
+@* <h2>title</h2> *@
