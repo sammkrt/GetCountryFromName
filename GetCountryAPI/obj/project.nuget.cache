@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "+sTJ5XyE8snSC2Ag924i4nvtBEZ+6Jr4HPf3wcO38MOrEG8gVvws6lDaw3S6pcB812KnrL6tA3GWPfNnPTQn6Q==",
+  "success": true,
+  "projectFilePath": "/Users/salt-dev/Desktop/selfStudies/GetCountryFromName/GetCountryFromName/GetCountryAPI/GetCountryAPI.csproj",
+  "expectedPackageFiles": [
+    "/Users/salt-dev/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/salt-dev/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/salt-dev/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/salt-dev/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/salt-dev/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/salt-dev/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

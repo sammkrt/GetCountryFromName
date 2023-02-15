@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/GetCountryFromNameMVC.props" />
+</Project>
